@@ -1,0 +1,23 @@
+# Dependências locais
+node_modules
+
+# Git
+.git
+.gitignore
+
+# Variáveis sensíveis
+.env
+.env.*
+
+# Logs
+*.log
+
+# Editor
+.vscode
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Documentação
+README.md
