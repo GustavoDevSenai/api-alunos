@@ -33,7 +33,7 @@ jobs:
       - name: Build and Push
         uses: docker/build-push-action@v6
         with:
-          context:
+          context: .
           push: true
           tags: |
             ghcr.io/gustavodevsenai/api-alunos:latest
