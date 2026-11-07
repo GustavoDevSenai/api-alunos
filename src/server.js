@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
   res.json({
     projeto: "API Alunos",
     ambiente: "Docker + VPS",
-    status: "online"
+    status: "CI/CD Funcionando"
   });
 });
 

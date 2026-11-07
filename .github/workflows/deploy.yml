@@ -37,3 +37,9 @@ jobs:
           push: true
           tags: |
             ghcr.io/gustavodevsenai/api-alunos:latest
+
+      - name: Deploy
+        run: |
+          cd ~/apps/api-alunos
+          docker compose pull
+          docker compose up -d
